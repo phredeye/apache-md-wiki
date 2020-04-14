@@ -1,0 +1,3 @@
+Action markdown {{HANDLER_ROOT}}/handler.php
+AddHandler markdown {{HANDLER_EXTENSIONS}}
+DirectoryIndex {{HANDLER_INDEX_FILES}}

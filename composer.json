@@ -11,11 +11,13 @@
     ],
     "autoload": {
 	    "psr-4": {
-		    "Phredeye\\ApacheWiki\\": "src/"
+		    "Phredeye\\\\": "src/"
 	    }
     },
     "require": {
         "erusev/parsedown": "^1.7",
-        "erusev/parsedown-extra": "^0.8.1"
+        "erusev/parsedown-extra": "^0.8.1",
+        "vlucas/phpdotenv": "^4.1",
+        "mnapoli/silly": "^1.7"
     }
 }

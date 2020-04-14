@@ -2,3 +2,5 @@ vendor
 node_modules
 .idea
 .vscode
+.env
+!.env.example
