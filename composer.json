@@ -1,0 +1,21 @@
+{
+    "name": "phredeye/apache-md-handler-wiki",
+    "description": "A custom apache handler that turns a document root into a markdown backed wiki",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fred Isaacs",
+            "email": "fred@kodebase.org"
+        }
+    ],
+    "autoload": {
+	    "psr-4": {
+		    "Phredeye\\ApacheWiki\\": "src/"
+	    }
+    },
+    "require": {
+        "erusev/parsedown": "^1.7",
+        "erusev/parsedown-extra": "^0.8.1"
+    }
+}
